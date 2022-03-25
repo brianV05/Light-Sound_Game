@@ -62,6 +62,15 @@ button{
   background: lightyellow;
 }
 
+#button5{
+  background: thistle;  
+}
+
+#button6{
+  background: wheat;
+  
+}
+
 /*CHANGE COLOR ON CLICK*/
 /* button1.lit is for the computer to play back when clue is needed*/
 #button1:active, #button1.lit{
@@ -78,6 +87,14 @@ button{
 
 #button4:active, #button4.lit{
   background: yellow;
+}
+
+#button5:active, #button5.lit{
+  background: violet;
+}
+
+#button6:active, #button6.lit{
+  background: saddlebrown;
 }
 
 
