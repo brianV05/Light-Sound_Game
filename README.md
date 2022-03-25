@@ -24,13 +24,13 @@ The following **optional** features are implemented:
 
 * [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [X] More than 4 functional game buttons
+* [X] Playback speeds up on each turn
+* [X] Computer picks a different pattern each time the game is played
+* [X] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [X] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
@@ -46,18 +46,40 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+      - https://www.rapidtables.com/web/css/css-color.html  
+      - https://www.the-art-of-web.com/javascript/creating-sounds/
+      - https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/math/random
+      - https://www.programiz.com/javascript/continue-statement
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [YOUR ANSWER HERE]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+    After completing this project, I was wondering if web development contains the features to implement a website like apple. For example,
+    the apple website has all these pop ups, a 3D visual of the new phone etc. Are these features done through the script.js? or are these features 
+    taken from other sources and be used in your script.js? Another question I had is once your website is completed, how does a website 
+    go on live for the world to use? Is there a process that need to be taken before going live?  In this project, I notice when calling a 
+    global variable or any variable, it doesn't seem to recognize that the variable is being called. For example, in c++, when we have a variable (int number),
+    and inside a function we decide to use that variable, the only difference is once I enter on the keyword "nu", it automatically pops the int number that we declared before,
+    and all I have to do is press TAB and it will complete my code. It's faster and less time wasted in writing variable name. Is this only happens on this plateform or
+    java script is performed like that? k
+    
+    
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
-
-
+    
+    If I had the few hours to work on this project, I would like to first make the website look more appealing to the user's eye. I would make the background
+    have a multiply colors, where the background changes color every 5 sec. Another is laying out every component in the web to be more pleasing to the eye. I would have
+    the title to be centered, the description also be centered, along of the start/stop button. A feature I may want to add to the start/stop 
+    button is having the button to be green at Start and have the color red on Stop. Another feature is to have another button, where it will control the 
+    amount of buttons inside the gameButtonArea, which means adding and removing button off the screen. I would like to expand the length of the game, where
+    each correct pattern will be faster and longer for the user to know. With this feature added, it will also be a good idea to have a score board, where
+    you can see or track how fast you were able to complete the game. Another cool feature, is to have the user record its own sounds and apply their sounds 
+    to the button dispalyed. I would include a setting page, to modify the screen, maybe have dark/light mode, creating a profile with your name and score baord for 
+    others to see. 
+    
 
 ## Interview Recording URL Link
 
