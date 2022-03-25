@@ -7,8 +7,11 @@ var tonePlaying = false;    // tracks wheather or not there tone playing
 var volume = 0.5;           // must be betweeb 0.0 and 1.0
 var guessCounter = 0;       // to keep track of where the user is in the clue sequence
 
-var clueHoldTime = 1000;    //how long to hold each clue's light/sound(WAS A CONST variable.Now used to speed up)
+var clueHoldTime = 1000;    // how long to hold each clue's light/sound(WAS A CONST variable.Now used to speed up)
 var mistakes = 0;
+var timer = null;          // timer object
+var count = 20;        
+var reset = false;     
 
 //global constants
 const cluePauseTime = 333;  //how long to pause in between clues
@@ -42,6 +45,7 @@ function stopGame(){
   gamePlaying = false;
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
+  reset = true;
 }
 
 
@@ -119,7 +123,35 @@ function playClueSequence(){
     
     clueHoldTime = clueHoldTime / 1.05;
   }
+
+  count = 20;       //setting the timer to 20s
+  reset = false;    
+
+  clearInterval(timer);
+  timer = setInterval(countDown, 1000);
+  
 }
+
+// For the timer
+function countDown() {
+    // Update the count down every 1 second
+    document.getElementById("timer").innerHTML =
+      "Countdown: " + count + " s";
+    count -= 1; 
+    if (count < 0 || reset) {     //if the count is less than 0 or its reset 
+      if(!reset) {                // if its not rest, stop the game
+        stopGame();               
+        alert("Time is up. You lost.");
+      }
+      resetTimer();              //set timer to 0, calling the resetTimer() 
+      clearInterval(timer);
+    }
+}
+function resetTimer(){
+  count = 20;      // timer will have 20s
+  document.getElementById("timer").innerHTML = "Countdown: 0 s";
+}
+
 
 //Function to call if the user loses the game
 function loseGame(){

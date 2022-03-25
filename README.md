@@ -4,9 +4,9 @@
 
 Submitted by: **Brian Velecela**
 
-Time spent: **#15** hours spent in total
+Time spent: **15** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://natural-auspicious-pull.glitch.me
 
 ## Required Functionality
 
@@ -65,8 +65,6 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     and all I have to do is press TAB and it will complete my code. It's faster and less time wasted in writing variable name. Is this only happens on this plateform or
     java script is performed like that? k
     
-    
-
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
     
