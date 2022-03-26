@@ -52,7 +52,19 @@ If you recorded multiple GIFs for all the implemented features, you can add them
       - https://www.programiz.com/javascript/continue-statement
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+    
+    One challenge I encounter in creating this project was adding one of the bonus features, the timer. One thing, I couldn't figure out 
+    was when and where to implement this timer. In the instructions, it states to build a spot for the timer. So inside the HTML file
+    I created a < p > in between the description and the start/stop button. Givning it an id of "timer". What I was thinking for this 
+    bonus feature is setting a timer to see how fast it take for you to complete the entire game. But as I was imagining the game in my head,
+    it didn't make any funner or changeller the game. After couple of hours, so seeing similar game, the timer would be better to have it 
+    everytime a new sequnce comes. We will make a function saying what the timer will do. I was stuck here, didn't know how to start
+    this function. The sources provided in the project, given me a clear idea of how to implent this. Another thing, I was considering is 
+    resetting everytime, we press on stop button and when pattern is guessed right. I set three variable, a timer, a count and a reset. These
+    variable will help the timer function well. Inside the function, I made sure to check two things, one to check if the timer has
+    reach its limit, which in this case is 20 sec, or check if the game is reset. We will clear timer. We also check if game is not reset then it 
+    stop and deliver a message. The countDown() is called inside the playsequence(), so that every pattern, timer will reset and restart
+    the 20 sec back again.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
@@ -63,7 +75,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     global variable or any variable, it doesn't seem to recognize that the variable is being called. For example, in c++, when we have a variable (int number),
     and inside a function we decide to use that variable, the only difference is once I enter on the keyword "nu", it automatically pops the int number that we declared before,
     and all I have to do is press TAB and it will complete my code. It's faster and less time wasted in writing variable name. Is this only happens on this plateform or
-    java script is performed like that? k
+    java script is performed like that? 
     
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
