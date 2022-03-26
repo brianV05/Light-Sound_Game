@@ -4,7 +4,7 @@
 
 Submitted by: **Brian Velecela**
 
-Time spent: **15** hours spent in total
+Time spent: **18** hours spent in total
 
 Link to project: https://natural-auspicious-pull.glitch.me
 
