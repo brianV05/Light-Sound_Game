@@ -50,6 +50,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
       - https://www.the-art-of-web.com/javascript/creating-sounds/
       - https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/math/random
       - https://www.programiz.com/javascript/continue-statement
+      - https://www.w3schools.com/jsref/met_win_clearinterval.asp
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
     
@@ -93,7 +94,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://youtu.be/Tjg8m40XKx0)
 
 
 ## License
