@@ -39,10 +39,13 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+
+- Timer reacing to 0 sec:
+![X](http://g.recordit.co/EY4aOlxfd4.gif)
+- Using all three tries
+![X](http://g.recordit.co/gPYYj2XHf2.gif)
+- Full run of web : 2 more buttons,speed up, timer reset every round
+![X](http://g.recordit.co/MbK0CVSPbL.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 

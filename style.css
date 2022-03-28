@@ -30,6 +30,7 @@ button{
   border-radius: 10px;
 }
 
+
 /*we will use # with id to target everything inside that div#gameButtonArea*/
 /*this will leave the start/end button alone*/
 #gameButtonArea > button
