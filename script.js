@@ -121,9 +121,9 @@ function playClueSequence(){
     delay += clueHoldTime ;
     delay += cluePauseTime;
     
-    clueHoldTime = clueHoldTime / 1.05;
+  
   }
-
+  clueHoldTime -= 100;
   count = 20;       //setting the timer to 20s
   reset = false;    
 
@@ -171,12 +171,13 @@ function guess(btn){
     return;
   }
   
-  if(pattern[guessCounter] == btn){
+  if(btn == pattern[guessCounter] ){
     //Guess was correct!
     if(guessCounter == progress){
       if(progress == pattern.length - 1){
         //GAME OVER: WIN!
         winGame();
+        reset = true;
       }else{
         //Pattern correct. Add next segment
         progress++;
@@ -192,7 +193,7 @@ function guess(btn){
     //GAME OVER: LOSE!
     if (mistakes == 3){      //if mistakes get to 3 trys
       loseGame();            // stop the game 
-      gamePlaying == true;   //reset game to true
+      reset = true;   //reset game to true
     }
     else{
       alert("Wrong! You have: " + (3 - mistakes) + "left.");  // if not, print this message
